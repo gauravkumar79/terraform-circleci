@@ -1,4 +1,4 @@
 region = "us-east-2"
-label  = "hashicorp.fun"
-app    = "terramino"
+label  = "test terraform-circleci-app"
+app    = "terraform-circleci"
 user   = "gaurav.k"
