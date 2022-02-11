@@ -30,5 +30,5 @@ resource "aws_s3_bucket" "terraform_state" {
 }
 
 output "s3_bucket_name" {
-  value = aws_s3_bucket.terraform_state.bucket
+  value = aws-s3-bucket.terraform-state.bucket
 }
