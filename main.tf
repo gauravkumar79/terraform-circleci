@@ -9,7 +9,9 @@ terraform {
 }
 
 provider "aws" {
-  region = var.region
+  region     = "us-east-1"
+  access_key = "AKIAWOZCXKJSUOHRCW5N"
+  secret_key = "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 "
 }
 
 resource "random_uuid" "randomid" {}
